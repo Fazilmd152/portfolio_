@@ -18,17 +18,14 @@ nav ul li {
 .hero-sec2-div{
    @apply p-2 h-fit md:w-[80%]  rounded-lg shadow-md animation  md:shadow-sm 
 }
+/* bg-[#c0de89] */
+/*  */
 
-.border-radius{
-   /* border-top-left-radius: 20px;
-   border-top-right-radius: 20px; */
-   border-radius: 80%;
-
-   
+.about{
+   @apply  rounded-lg p-2 shadow-sm animation  transition delay-75  hover:bg-red-100
 }
-
-.bg-sec2{
-  /* background-color:  rgba(2, 3, 1, 0.5); */
+.about h1{
+   @apply text-3xl font-medium  text-[#4831d4]
 }
 
 .animation{
@@ -36,6 +33,7 @@ nav ul li {
    animation-duration: 1s;
    opacity: 0;
    animation-fill-mode: forwards;
+   
 }
 
 @keyframes zoom {
@@ -51,3 +49,6 @@ nav ul li {
 
 }
 
+
+
+/*transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 */

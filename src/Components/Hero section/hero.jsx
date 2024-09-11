@@ -1,13 +1,14 @@
 import React from 'react'
-import HeroSec1 from './heroSec1'
-import HeroSec2 from './heroSec2'
-//import hero from '../../Assets/hero.png'
+import HeroSec1 from './hero sec 1/heroSec1'
+import HeroSec2 from './hero sec 2/heroSec2'
+import hero from '../../Assets/hero.png'
 
 const Hero = () => {
   
   return (
-    <div className="flex flex-col md:flex-row ">
+    <div className="md:flex md:h-[520px] relative">
       <HeroSec1/>
+      <img src={hero} alt="" className='hidden md:block w-8/12 absolute left-[15%] -top-10 opacity-20 h-full object-cover'/>
       <HeroSec2/>
     </div>
 
