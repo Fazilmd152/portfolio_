@@ -16,7 +16,7 @@ nav ul li {
 }
 
 .hero-sec2-div{
-   @apply p-2 h-fit w-[80%]  rounded-lg shadow-sm animation 
+   @apply p-2 h-fit md:w-[80%]  rounded-lg shadow-md animation  md:shadow-sm 
 }
 
 .border-radius{

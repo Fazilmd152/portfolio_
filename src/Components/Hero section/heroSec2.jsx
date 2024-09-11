@@ -5,7 +5,7 @@ const HeroSec2 = () => {
 
 
   return (
-    <section className="bg-[#ccf381] w-[50%] p-5 flex flex-col gap-5 justify-center items-center ">
+    <section className="md:bg-[#ccf381]   p-5 flex flex-col gap-5 justify-center items-center hidden md:block">
 
         <div className='hero-sec2-div'>
           <div >

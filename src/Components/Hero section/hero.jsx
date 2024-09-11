@@ -6,7 +6,7 @@ import HeroSec2 from './heroSec2'
 const Hero = () => {
   
   return (
-    <div className="flex h-[91vh]">
+    <div className="flex flex-col md:flex-row ">
       <HeroSec1/>
       <HeroSec2/>
     </div>
