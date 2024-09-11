@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+nav ul li {
+
+    @apply px-2
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.toggle-menu a{
+   @apply w-fit py-0 text-xl font-medium 
+   border border-transparent active:border-b-black  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-sec2-div{
+   @apply p-2 h-fit w-[80%]  rounded-lg shadow-sm animation 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.border-radius{
+   /* border-top-left-radius: 20px;
+   border-top-right-radius: 20px; */
+   border-radius: 80%;
+
+   
 }
 
-.App-link {
-  color: #61dafb;
+.bg-sec2{
+  /* background-color:  rgba(2, 3, 1, 0.5); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.animation{
+   animation-name: zoom;
+   animation-duration: 1s;
+   opacity: 0;
+   animation-fill-mode: forwards;
 }
+
+@keyframes zoom {
+   0% {
+       transform: scale(0);
+       opacity: 0;
+   }
+
+   100% {
+       transform: scale(1);
+       opacity: 1;
+   }
+
+}
+
