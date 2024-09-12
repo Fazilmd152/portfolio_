@@ -5,7 +5,7 @@ const HeroSec2 = () => {
 
 
   return (
-    <section className="hidden md:flex md:flex-col gap-10 bg-[#ccf381] px-5 md:px-20 justify-center">
+    <section className="hidden md:flex md:flex-col gap-10 bg-[#ccf381] px-5 md:px-20 justify-center h-full">
 
         <div className='about'>
           

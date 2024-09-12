@@ -8,7 +8,7 @@ function Nav() {
 
     return (
         <>
-            <nav className="sticky top-0 flex justify-between items-center px-5 py-4 shadow-md bg-[#4831d4] text-white">
+            <nav className="sticky top-0 flex justify-between items-center px-5 py-4  bg-[#4831d4] text-white z-10">
                 <h1>Md fazil</h1>
                 <div className="hidden md:block">
                     <ul className="flex ">
