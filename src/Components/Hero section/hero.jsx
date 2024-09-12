@@ -1,16 +1,15 @@
 import React from 'react'
 import HeroSec1 from './hero sec 1/heroSec1'
 import HeroSec2 from './hero sec 2/heroSec2'
-import hero from '../../Assets/hero.png'
 
+//md:h-[520px]
 const Hero = () => {
   
   return (
-    <div className="md:flex md:h-[520px] ">
+    <section className="md:flex h-[88vh] sm:h-[100vh] md:h-[100vh]" id='hero'>
       <HeroSec1/>
-      {/* <img src={hero} alt="" className='hidden md:block w-8/12 absolute left-[15%] -top-10 opacity-20 h-full object-cover'/> */}
       <HeroSec2/>
-    </div>
+    </section>
 
   )
 }

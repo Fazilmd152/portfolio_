@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import whatsapp from '../../../Assets/logos/whatsapp2.png'
+
 
 const Logos = () => {
 
 
     return (
-        <div className="hidden  md:grid  w-fit mt-10  text-black gap-2">
+        <div className="hidden md:grid  w-fit mt-10  text-black gap-2">
 
             <Link to='https://wa.me/7397565259?text=Hello !'>
                 <div className="px-2  rounded-md hover:bg-white flex align-middle items-center gap-2 transition delay-75  group">

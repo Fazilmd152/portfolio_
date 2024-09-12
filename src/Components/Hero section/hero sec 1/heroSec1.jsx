@@ -1,10 +1,11 @@
 import React from 'react'
 import Logos from './Logos'
 import About from './About'
+import LogoSmallScreen from './logoSmall'
 
 const HeroSec1 = () => {
     return (
-        <section className='bg-[#4831d4] px-12 py-20 text-white md:w-full md:px-28 md:h-full'>
+        <section className='bg-[#4831d4] px-12 py-20 text-white md:w-full md:px-28 h-full '>
             <div className="">
                 <span className='text-2xl'>Hi Iam,</span>
 
@@ -17,7 +18,7 @@ const HeroSec1 = () => {
                 <Logos />
             </div>
             <About />
-
+            <LogoSmallScreen/>
 
         </section>
     )
