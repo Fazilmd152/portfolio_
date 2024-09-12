@@ -50,7 +50,7 @@ nav ul li {
 }
 
 .skill-item{
-   @apply border flex flex-col items-center py-5 rounded-md
+   @apply border border-gray-400 flex flex-col items-center py-5 rounded-md hover:text-white  hover:font-medium bg-white
 
    
 }
@@ -60,7 +60,7 @@ nav ul li {
 .skill-item:hover {
    transform: translateY(-5px); /* Move box up slightly on hover */
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
-   background-color: #555; /* Darken background color on hover */
+   background-color: #4F439A; /* Darken background color on hover */
 }
 .skill-item:hover i {
    transition:all 0.4s ease;
@@ -73,9 +73,15 @@ nav ul li {
    @apply col-span-2 md:col-span-4
 }
 .button{
-   @apply  px-4 py-2 grow text-white rounded-md mb-2 transition delay-75
+   @apply  px-1.5 py-1.5 text-xs md:text-sm grow text-white rounded-md mb-2 transition delay-75
 }
 .project{
    @apply  md:p-5 md:bg-pink-100 
-   rounded-2xl
+   md:rounded-2xl
+}
+.project-overflow{
+   @apply  hidden md:block absolute top-0 left-0 overflow-hidden whitespace-normal text-center h-full bg-white w-full text-sm rounded-lg px-3 flex items-center opacity-0 group-hover:opacity-95 transition duration-300 ease-in-out group-hover:scale-110
+}
+.resume-download-button{
+   @apply bg-[rgb(255,216,20)] px-6 py-1 rounded font-medium hover:bg-[rgb(245,205,3)] active:opacity-80
 }
