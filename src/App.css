@@ -22,10 +22,13 @@ nav ul li {
 /*  */
 
 .about{
-   @apply  rounded-lg p-2 shadow-sm animation  transition delay-75  hover:bg-red-100
+   @apply  rounded-lg p-2 shadow-sm animation  transition delay-75  hover:shadow-xl hover:bg-[#4831d4] 
 }
 .about h1{
-   @apply text-3xl font-medium  text-[#4831d4]
+   @apply text-3xl font-medium  text-[#000000] transition delay-75
+}
+.about p{
+   @apply text-[#333333] transition delay-75
 }
 
 .animation{
@@ -80,7 +83,7 @@ nav ul li {
    md:rounded-2xl
 }
 .project-overflow{
-   @apply  hidden md:block absolute top-0 left-0 overflow-hidden whitespace-normal text-center h-full bg-white w-full text-sm rounded-lg px-3 flex items-center opacity-0 group-hover:opacity-95 transition duration-300 ease-in-out group-hover:scale-110
+   @apply  hidden md:block absolute top-0 left-0 overflow-hidden whitespace-normal text-center h-full bg-white w-full text-sm rounded-lg px-3 md:flex items-center opacity-0 group-hover:opacity-95 transition duration-300 ease-in-out group-hover:scale-110
 }
 .resume-download-button{
    @apply bg-[rgb(255,216,20)] px-6 py-1 rounded font-medium hover:bg-[rgb(245,205,3)] active:opacity-80 text-sm w-full

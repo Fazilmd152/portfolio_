@@ -13,7 +13,7 @@ const HeroSec1 = () => {
 
                 <h3 className='text-2xl mt-5' >Full stack developer</h3>
 
-                <p className='text-sm md:text-lg md:w-3/4'>I like to craft solid and scalable frontend products with great user experiences.</p>
+                <p className='text-sm md:text-lg md:w-3/4'>I like to craft solid and scalable web app with great user experiences.</p>
 
                 <Logos />
             </div>

@@ -7,21 +7,21 @@ const HeroSec2 = () => {
   return (
     <section className="hidden md:flex md:flex-col gap-10 bg-[#ccf381] px-5 md:px-20 justify-center h-full">
 
-        <div className='about'>
+        <div className='about group'>
           
-            <h1 className=''>Frontend</h1>
-            <p className=''>
+            <h1 className='group-hover:text-[#ccf381] '>Frontend</h1>
+            <p className='group-hover:text-white'>
               Highly skilled at progressive enhancement, design systems & UI Engineering.
             </p>
           
 
         </div>
 
-        <div className="about">
+        <div className="about group">
           
-            <h1 className=''>Backend</h1>
-            <p className=''>
-              Proven experience building successful products for clients across several countries.
+            <h1 className='group-hover:text-[#ccf381]'>Backend</h1>
+            <p className='group-hover:text-white'>
+              Proven experience building APIs for various features .
             </p>
           
 

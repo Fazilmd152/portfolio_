@@ -8,8 +8,8 @@ const Projects = () => {
 
         <div className="grid grid-cols-2 text-sm gap-3 md:flex md:gap-6" data-aos="fade-up">
             <ProjectsDetails/>
-            <ProjectsDetails/>
-            <ProjectsDetails/>
+            
+            
             <ProjectsDetails/>
         </div>
     </section>
