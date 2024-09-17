@@ -12,7 +12,7 @@ const ProjectsDetails = () => {
            <div className="relative ">
            <img src={p1} alt="" className='rounded-lg md:h-[25vh] object-cover md:group-hover:scale-110  transition duration-300 ease-in-out '/>
 
-           <p className=' project-overflow'>Simple e-commerce website with dynamic user interface and responsive layouts</p>
+           <p className=' project-overflow'>Simple e-commerce website with dynamic user interface and responsive layouts  </p>
 
            </div>
                 
