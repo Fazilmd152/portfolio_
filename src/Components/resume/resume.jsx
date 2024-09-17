@@ -1,5 +1,6 @@
 import React from 'react'
 import resumePic from '../../Assets/resume.jpg'
+import resume from "../../Assets/Resume/my_resume.pdf"
 
 const Resume = () => {
     return (
@@ -14,7 +15,7 @@ const Resume = () => {
 
                     <p className=' mt-2 mb-2 text-left text-xs md:text-base md:text-center '>You can download my resume here
                          <span className='hidden ml-3 md:inline-block'>
-                         <button className=' resume-download-button'>Download</button>
+                         <button className=' resume-download-button'><a href={resume} download>Download</a></button>
                         </span>
                     </p>
 
